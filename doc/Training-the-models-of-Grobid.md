@@ -32,7 +32,7 @@ The models are located under `grobid/grobid-home/models`. Each of these models c
 
 ## Train and evaluate
 
-The sub-project grobid-trainer is be used for training. The training data is located under the grobid-trainer/resources folder, more precisely under `grobid/grobid-trainer/resources/dataset/*MODEL*/corpus/` 
+The sub-project grobid-trainer is to be used for training. The training data is located under the grobid-trainer/resources folder, more precisely under `grobid/grobid-trainer/resources/dataset/*MODEL*/corpus/` 
 where *MODEL* is the name of the model (so for instance, `grobid/grobid-trainer/resources/dataset/date/corpus/`). 
 
 When generating a new model, a segmentation of data can be done (e.g. 80%-20%) between TEI files for training and for evaluating. This segmentation can be done following two manner: 
